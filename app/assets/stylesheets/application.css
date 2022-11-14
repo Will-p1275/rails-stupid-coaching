@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+.question {
+  border-left: solid 0.3em;
+  border-left-color: lightslategray;
+}
+
+.answer {
+  border-left: solid 0.3em;
+  border-left-color: lightslategray;
+  background-color: blanchedalmond;
+}
+
+.container .form-control {
+  border-bottom-right-radius: 0rem;
+  border-top-right-radius: 0rem;
+  /* border-bottom-left-radius: 0,25rem;
+  border-top-left-radius: 0,25rem; */
+}
+
+.container .btn {
+  /* border-bottom-right-radius: 0,25rem;
+  border-top-right-radius: 0,25rem; */
+  border-bottom-left-radius: 0rem;
+  border-top-left-radius: 0rem;
+}
